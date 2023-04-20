@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    animation-name: Sharique;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(7, 116, 79);
+    animation-name: Sharique;
+    animation-delay: 2.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(185, 255, 206);
+    animation-name: Sharique;
+    animation-delay: 2.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(194, 218, 255);
+    animation-name: Sharique;
+    animation-delay: 2.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+}
+
+@keyframes Sharique {
+    from{
+        margin-top: 0;
+    }
+    to{
+        margin-top: 20%;
+    }
+    
+}
+
+.box5{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: boxanimation;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes boxanimation {
+    0%{
+        background-color: aqua;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: rgb(98, 0, 255);
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: rgb(255, 0, 43);
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: rgb(43, 255, 0);
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: aqua;
+        left: 0px;
+        top: 0px;
+    }
+}
+/* .anothercon{
+    display: flex;
+    flex-direction: row;
+} */
+.clickmebox{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    animation-name: clickinganimation;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    }
+
+@keyframes clickinganimation {
+    0%{
+        width: 200px;
+        height: 50px;
+        background-color: red;
+    }
+    100%{
+        color: azure;
+        font-size: 30px;
+        width: 300px;
+        height: 70px;
+        background-color: rgb(97, 0, 0);
+    }
+    
+}
